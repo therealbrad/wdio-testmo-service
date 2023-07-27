@@ -24,7 +24,7 @@
   "author": "Brad DerManouelian",
   "license": "MIT",
   "devDependencies": {
-    "@types/mocha": "*",
+    "@types/mocha": "^10.0.1",
     "@wdio/cli": "^8.13.12",
     "@wdio/devtools-service": "^8.13.12",
     "@wdio/globals": "^8.13.12",
