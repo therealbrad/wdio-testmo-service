@@ -1,0 +1,30 @@
+{
+    "plugins": ["wdio","mocha"],
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:mocha/recommended",
+        "plugin:wdio/recommended"
+    ],
+    "rules": {
+        "@typescript-eslint/no-var-requires": 0,
+        "mocha/no-mocha-arrows": 0,
+        "wdio/await-expect": 2,
+        "wdio/no-debug": 1,
+        "wdio/no-pause": 1
+    },
+    "settings": {
+        "mocha/additionalCustomNames": [
+            { "name": "describeModule", "type": "suite", "interfaces": [ "BDD" ] }
+        ]
+    },
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "globals": {
+        "credentials": true
+    }
+}
