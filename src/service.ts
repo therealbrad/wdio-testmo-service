@@ -1,10 +1,10 @@
 import { Options, Services } from "@wdio/types";
 import type { TestmoServiceOptions, CsvRow } from "./types";
-import logger from "@wdio/logger";
+import Logger from "@wdio/logger";
 import * as fs from "fs";
 import csvParser from "csv-parser";
 
-const log = logger("wdio-testmo-service");
+const log = Logger("wdio-testmo-service");
 var mochaOptsGrepOriginal: String | RegExp;
 export default class TestmoService implements Services.ServiceInstance {
 	constructor(private _options: TestmoServiceOptions) {}
