@@ -1,6 +1,6 @@
 {
   "name": "wdio-testmo-service",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "WebdriverIO service for choosing tests to run based on Priority",
   "main": "build/app.js",
   "types": "build/app.d.ts",
@@ -29,7 +29,7 @@
     "@wdio/devtools-service": "^8.13.13",
     "@wdio/globals": "^8.13.13",
     "@wdio/local-runner": "^8.13.13",
-    "@wdio/logger": "^8.11.0",
+    "@wdio/logger": "^7.26.0",
     "@wdio/mocha-framework": "^8.13.13",
     "csv-parser": "^3.0.0",
     "install": "^0.13.0",
